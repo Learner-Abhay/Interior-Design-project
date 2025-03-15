@@ -1,0 +1,144 @@
+.heading
+{
+
+padding:10px;
+display:flex;
+}
+body
+{
+
+background-image: url("background.jpg"); 
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+
+.navbar {
+    width: 80%;
+    overflow: none;
+    justify-content: space-evenly;
+  }
+  .navbar a {
+    justify-content:space-between;
+    padding: 30px;
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+    width: 10%; 
+ 
+  }
+  .navbar a:hover {
+    background-color:turquoise;
+    width: 25%;
+    border-radius:100px;
+    transition: 0.6s;
+  }
+.content
+{
+  margin: 10%;
+  width: 80%;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: 22px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  color: black;
+}
+.content p
+{
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: inherit;
+}
+button
+{
+	
+	font-size:20px;
+	
+	color:black;
+	cursor:pointer;
+	width:40%;
+	height:5%;
+	background-color:transparent;
+}
+button:hover
+{
+	cursor:pointer;
+	color:black;
+	background-color:mediumaquamarine;
+	width:40%;
+	transition:0.2s;
+	border-radius:30%;
+}
+.icons
+{
+	
+	color:white;
+	justify-content:space-around ;
+}
+.icons:hover
+{
+	color:blue;
+}
+#footer
+        {
+            background-color: #212b38;
+            margin-top: 284px;
+            color: white;
+            margin-bottom: -10px;
+            margin-left: -8px;
+            margin-right: -8px;
+        }
+        #main-footer
+        {
+            margin-top: 10px;
+        }
+        #licence
+        {
+            margin-left: 400px;
+            color: red;
+        }
+        #f1
+        {
+            margin-top: 10px;
+            margin-left: 15px;
+        }
+        #f2
+        {
+            margin-left:20px;
+        }
+        #f3
+        {
+            margin-left: 20px;
+        }
+        #f4
+        {
+            margin-left: 30px;
+        }
+        #sm
+        {
+            text-decoration: none;
+            color: white;
+        }
+        .aboutcontent
+        {
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          font-size: 30px larger;
+          color:black;
+        }
+        .eminemimage
+        {
+          position: relative;
+          align-items: center;
+          margin-left: 550px;
+        }
+        .eminemimage:hover
+        {
+          opacity: 50px;
+          border-radius: 100%;
+          transition: 2s;
+        }
+        
+ 
