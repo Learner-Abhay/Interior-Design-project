@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>vtcbcsr</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideDown(10000);
+  });
+});
+
+</script>
+<style> 
+#panel{
+  padding: 50px;
+  text-align: center;
+  background-color:aqua;
+  border: solid 1px #c3c3c3;
+}
+
+#panel {
+  padding: 20px;
+  display: none;
+  border: solid 1px black;
+}
+#flip 
+{
+  padding: 5px;
+  text-align: center;
+  background-color:coral;
+  border: solid 1px black;
+}
+</style>
+</head>
+<body>
+ 
+<div id="flip">Click to slide down panel</div>
+<div id="panel">Adminidtrator<br>Faculty<br>Student</div>
+
+</body>
+</html>

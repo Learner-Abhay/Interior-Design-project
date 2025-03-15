@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>
+            vtcbcsr
+        </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script>
+            $("document").ready(function(){
+            $("#flip").click(function(){
+            $("#panel").slideDown("slow");
+            });
+        });
+       </script>
+<style>
+
+#flip{
+        padding:10px;
+        text-align: center;
+        background-color: coral;
+        border:5px;
+}
+#panel
+{
+        padding:10px;
+        text-align: center;
+        background-color:aqua;
+        border:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+    </head>
+    <body>
+        <h1 align="center">Demonstrate sliding effect</h1>
+        <div id="flip">Click to slide panel done</div>
+        <div id="panel">Faculty<br>Administrator<br>Student<br></div>
+    </body>
+</html>
